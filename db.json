@@ -1,0 +1,194 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Áo Polo Nam",
+      "description": "Áo Polo thời trang cho nam giới",
+      "price": 29.99,
+      "color": ["Red", "Blue", "Green"],
+      "image": "https://media2.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/December2023/23CMCW.PL001.XDU.5.jpg",
+      "quantity": 100,
+      "sale":1,
+      "brand": "FashionCo",
+      "category": "Clothing"
+    },
+    {
+      "id": 2,
+      "name": "Áo Polo Nam2",
+      "description": "Áo Polo thời trang cho nam giới",
+      "price": 29.99,
+      "color": ["Red", "Blue", "Green"],
+      "image": "https://media2.coolmate.me/cdn-cgi/image/width=672,height=990,quality=80,format=auto/uploads/May2023/_MG_0211_18.jpg",
+      "quantity": 100,
+      "sale":1,
+      "brand": "FashionCo",
+      "category": "Clothing"
+    },
+    {
+      "id": 3,
+      "name": "Áo Polo Nam3",
+      "description": "Áo Polo thời trang cho nam giới",
+      "price": 29.99,
+      "color": ["Red", "Blue", "Green"],
+      "image": "https://media2.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/March2024/24CMAW.PL004.4.jpg",
+      "sale":1,
+      "quantity": 100,
+      "brand": "FashionCo",
+      "category": "Clothing"
+    },
+    {
+      "id": 4,
+      "name": "Áo Polo Care & Share Hành Trình Gom",
+      "description": "100% Doanh thu từ mỗi sản phẩm bán ra sẽ được dùng làm kinh phí cho Hành Trình Gom",
+      "price": 39.99,
+      "sale":1,
+      "color": ["Red", "Blue", "Green"],
+      "quantity": 50,
+      "image": "https://media2.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/February2024/ao_polo_gom1.jpg",
+      "brand": "ChicStyle",
+      "category": "Clothing"
+    },
+    {
+      "id": 5,
+      "name": "Pack 3 Áo Polo nam Pique Cotton",
+      "description": "Áo polo thời trang phù hợp nam",
+      "price": 49.99,
+      "color": ["Red", "Blue", "Green"],
+      "image": "https://mcdn2.coolmate.me/cdn-cgi/image/quality=80,format=auto/uploads/January2024/packpoloapl220.1_copy.jpg",
+      "quantity": 80,
+      "brand": "FootFlex",
+      "category": "Footwear"
+    },
+
+    {
+      "id": 6,
+      "name": "Áo Polo nam Excool",
+      "description": "Áo polo thời trang phù hợp nam",
+      "price": 49.99,
+      "color": ["Red", "Blue", "Green"],
+      "image": "https://mcdn2.coolmate.me/cdn-cgi/image/quality=80,format=auto/uploads/November2021/BT5A9235f_46.jpg",
+      "quantity": 80,
+      "brand": "FootFlex",
+      "category": "Footwear"
+    },
+    {
+      "id": 7,
+      "name": "Áo Polo Nam Thể Thao Promax-S1",
+      "description": "Áo polo thời trang phù hợp nam",
+      "price": 49.99,
+      "color": ["Red", "Blue", "Green"],
+      "image": "https://media2.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/May2022/thumb_polo_prmx_bong_dem.jpg",
+      "quantity": 80,
+      "brand": "FootFlex",
+      "category": "Footwear"
+    },
+    {
+      "id": 8,
+      "name": "Áo Polo Nam Dài Tay Thể Thao Essentials",
+      "description": "Áo polo thời trang phù hợp nam",
+      "price": 49.99,
+      "color": ["Red", "Blue", "Green"],
+      "image": "https://media2.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/January2024/23CMAW.PL001.1s7.jpg",
+      "sale":1,
+      "quantity": 80,
+      "brand": "FootFlex",
+      "category": "Footwear"
+    },
+    {
+      "id": 9,
+      "name": "Áo Polo Nam phối Jeans",
+      "description": "Áo polo thời trang phù hợp nam",
+      "price": 49.99,
+      "color": ["Red", "Blue", "Green"],
+      "image": "https://mcdn2.coolmate.me/cdn-cgi/image/quality=80,format=auto/uploads/May2023/thumbPolo_Copper_1A1.jpg",
+      "quantity": 80,
+      "brand": "FootFlex",
+      "category": "Footwear"
+    },
+    {
+      "id": 10,
+      "name": "Áo Polo Nam Pique Cotton USA",
+      "description": "Áo polo thời trang phù hợp nam",
+      "price": 49.99,
+      "color": ["Red", "Blue", "Green"],
+      "image": "https://media2.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/March2023/USA_REU_7.jpg",
+      "quantity": 80,
+      "brand": "FootFlex",
+      "category": "Footwear"
+    },
+    {
+      "id": 11,
+      "name": "Áo Polo Nam Graphene",
+      "description": "Áo polo thời trang phù hợp nam",
+      "price": 49.99,
+      "color": ["Red", "Blue", "Green"],
+      "image": "https://media2.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/February2024/ao-polo-graphene-den-8_copy.jpg",
+      "quantity": 80,
+      "brand": "FootFlex",
+      "category": "Footwear"
+    }
+  ],
+  "users": [
+    {
+      "userID": 3,
+      "username": "fashion_lover",
+      "email": "fashionlover@example.com",
+      "address": "789 High Street, Fashion City",
+      "phone": "555-123-4567"
+    },
+    {
+      "userID": 4,
+      "username": "style_guru",
+      "email": "styleguru@example.com",
+      "address": "456 Trendy Avenue, Vogue Town",
+      "phone": "555-987-6543"
+    }
+  ],
+  "orders": [
+    {
+      "orderID": 1002,
+      "userID": 3,
+      "orderDate": "2024-03-07",
+      "totalValue": 119.98,
+      "orderDetails": [
+        {
+          "orderDetailID": 3,
+          "productID": 201,
+          "quantity": 2,
+          "pricePerUnit": 29.99
+        }
+      ]
+    },
+    {
+      "orderID": 1003,
+      "userID": 4,
+      "orderDate": "2024-03-07",
+      "totalValue": 39.99,
+      "orderDetails": [
+        {
+          "orderDetailID": 4,
+          "productID": 202,
+          "quantity": 1,
+          "pricePerUnit": 39.99
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "categoryID": 3,
+      "category": "Polo",
+      "description": "Various clothing items for men and women"
+    },
+    {
+      "categoryID": 4,
+      "category": "Shirt",
+      "description": "Stylish shoes for all occasions"
+    }, 
+    {
+      "categoryID": 3,
+      "category": "Sport",
+      "description": "Various clothing items for men and women"
+    }
+  ]
+}
