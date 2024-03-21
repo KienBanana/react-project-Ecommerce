@@ -3,7 +3,7 @@ import { CiShoppingCart, CiUser } from "react-icons/ci";
 import { Link } from "react-router-dom";
 const Sidebar = () => {
   return (
-    <div className="overflow-y-scroll h-[100vh] ">
+    <div className=" ">
       <div className="flex flex-col items-center mt-9 border-r ">
         <div className="">
           <h1 className="text-3xl">Admin</h1>

@@ -1,6 +1,6 @@
 
-import Description from "../description";
-import DetailProduct from "../detail-product";
+import Description from "./Description";
+import DetailProduct from "./DetailProduct";
 
 const Detail = () => {
   return (

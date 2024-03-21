@@ -1,4 +1,4 @@
-import ItemPrduct from "../../Components/item-product";
+import ItemProduct from "../Components/ItemProduct";
 
 const TopSale = () => {
   return (
@@ -10,7 +10,7 @@ const TopSale = () => {
         </p>
       </div>
       <div className="">
-        <ItemPrduct />
+        <ItemProduct />
       </div>
       {/* <div className="mt-5">
         <button className="px-10 py-4 bg-[#024E82] text-[#fff] mt-10 mb-[70px]">

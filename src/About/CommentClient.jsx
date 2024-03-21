@@ -1,5 +1,5 @@
-import Footer from "../../Components/footer";
-import CommentClientDetail from "../comment-client-detail";
+
+import CommentClientDetail from "./CommentClientDetail";
 
 const CommentClient = () => {
   return (
@@ -12,7 +12,6 @@ const CommentClient = () => {
       <CommentClientDetail></CommentClientDetail>
       <CommentClientDetail></CommentClientDetail>
       <CommentClientDetail></CommentClientDetail>
-    
     </div>
   );
 };

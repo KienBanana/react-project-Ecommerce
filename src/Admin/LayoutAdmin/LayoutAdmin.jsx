@@ -5,9 +5,11 @@ import Main from "./Main";
 
 const LayoutAdmin = () => {
   return (
-    <div className="h-full grid grid-cols-[1fr,5fr] ">
+    <div className=" grid grid-cols-[1fr,5fr] ">
       <Sidebar></Sidebar>
-      <Main><Outlet></Outlet></Main>
+      <Main>
+        <Outlet></Outlet>
+      </Main>
       {/* <Outlet></Outlet> */}
     </div>
   );

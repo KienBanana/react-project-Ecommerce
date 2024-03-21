@@ -1,18 +1,44 @@
-import imgStar from "../../assets/image/detailIcon1.svg";
+import { useEffect, useState } from "react";
+// import imgStar from "../../assets/image/detailIcon1.svg";
+import imgStar from "../assets/image/detailIcon1.svg";
+import axios from "axios";
+import { useParams } from "react-router-dom";
+const getItemProductApi = async (id) => {
+  try {
+    const response = await axios.get(
+      `http://localhost:3000/products/${Number(id)}`
+    );
+    console.log("check respone", response);
+    // handle success99
+    // const data = await response.json();
 
+    return response.data;
+  } catch (error) {
+    console.log(error);
+  }
+};
 const DetailProduct = () => {
+  const [productDetail, setProductDetail] = useState();
+  const { id } = useParams();
+  useEffect(() => {
+    getItemProductApi(id).then((data) => {
+      console.log("check data", data);
+      setProductDetail(data);
+      console.log("check productDetail", productDetail);
+    });
+  }, []);
   return (
     <div className="flex justify-center items-center mt-[50px]">
       <div className="flex w-[85%] gap-6">
         <div className="">
           <img
-            src="https://images.unsplash.com/photo-1601762603339-fd61e28b698a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fGZhc2hpb258ZW58MHx8MHx8fDA%3D"
+            src={productDetail?.image}
             alt=""
             className="w-[300px] h-[400px] object-contain"
           />
         </div>
         <div>
-          <h1 className="text-[40px] font-semibold">Plain White Shirt</h1>
+          <h1 className="text-[40px] font-semibold">{productDetail?.name}</h1>
           <div className="flex mb-3">
             <img src={imgStar} alt="" />
             <img src={imgStar} alt="" />
@@ -22,15 +48,15 @@ const DetailProduct = () => {
           </div>
           <div className="flex flex-row gap-2 ">
             <span className="text-[#818181]">$69.00</span>
-            <span>$59.00</span>
+            <span>${productDetail?.price}</span>
           </div>
           <p className="w-[70%] text-[#555555] mt-4 mb-8">
             A classic t-shirt never goes out of style. This is our most premium
             collection of shirt. This plain white shirt is made up of pure
             cotton and has a premium finish.
           </p>
-          <div className="mb-8">
-            <form className="max-w-sm ">
+          <div className="mb-8 flex gap-4">
+            <form className="max-w-40 ">
               <label
                 htmlFor="countries"
                 className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
@@ -44,6 +70,21 @@ const DetailProduct = () => {
                 <option value="CA">M</option>
                 <option value="FR">L</option>
                 <option value="DE">XL</option>
+              </select>
+            </form>
+            <form className="max-w-40 ">
+              <label
+                htmlFor="countries"
+                className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              ></label>
+              <select
+                id="countries"
+                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              >
+                <option selected>Select Color</option>
+                <option value="US">Red</option>
+                <option value="CA">Blue</option>
+                <option value="FR">Green</option>
               </select>
             </form>
           </div>
@@ -62,6 +103,7 @@ const DetailProduct = () => {
           </div>
         </div>
       </div>
+      ;
     </div>
   );
 };

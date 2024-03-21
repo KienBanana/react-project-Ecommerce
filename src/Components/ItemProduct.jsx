@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 import { Button, IconButton } from "@material-tailwind/react";
 import { ArrowRightIcon, ArrowLeftIcon } from "@heroicons/react/24/outline";
-
+import { Link } from "react-router-dom";
 
 const getItemProductApi = async (page) => {
   try {
@@ -60,11 +60,13 @@ const ItemProduct = () => {
           {product.map((item, index) => (
             <div className="py-[50px]" key={index}>
               <div className="w-[334px] h-[400px] ">
-                <img
-                  src={item.image}
-                  alt=""
-                  className="w-full h-full object-contain"
-                />
+                <Link to={`/detail/${item.id}`}>
+                  <img
+                    src={item.image}
+                    alt=""
+                    className="w-full h-full object-contain"
+                  />
+                </Link>
                 <h2 className="font-bold pt-4 pb-1">{item.name}</h2>
                 <div className="flex justify-around">
                   <span className="text-[#024E82]">${item.price}</span>

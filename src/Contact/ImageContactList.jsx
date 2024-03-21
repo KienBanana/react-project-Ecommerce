@@ -1,4 +1,4 @@
-import ItemImageAbout from "../../Components/item-image";
+import ItemImageAbout from "../Components/ItemImageAbout";
 
 const ImageContactList = () => {
   return (

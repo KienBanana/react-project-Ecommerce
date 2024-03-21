@@ -1,8 +1,7 @@
-
-import CommentClient from "../comment-client";
-import ContainerAbout from "../container-about";
-import FounderAbout from "../founder-about";
-import ImageAbout from "../image-about-list";
+import CommentClient from "./CommentClient";
+import ContainerAbout from "./ContainerAbout";
+import FounderAbout from "./FounderAbout";
+import ImageAbout from "./ImageAbout";
 
 const About = () => {
   return (

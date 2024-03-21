@@ -2,17 +2,18 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
-import Home from "./Home/homeTotal";
-import About from "./About/aboutTotal";
-import Contact from "./Contact/contactTotal";
-import Detail from "./Detail/detailTotal";
-import Cart from "./Cart/cartTotal";
+
 import Layout from "./Components/Layout";
 import LayoutAdmin from "./Admin/LayoutAdmin/LayoutAdmin";
 import ProductAdmin from "./Admin/productAdmin/ProductAdmin";
-import DashBord from "./Admin/dashBoard/DashBord";
-import CategoryAdmin from "./Admin/categoryAdmin/CategoryAdmin";
+import DashBord from "./Admin/DashBord";
+import CategoryAdmin from "./Admin/CategoryAdmin";
 import RegisterFormik from "./sign-up/SingUp";
+import Home from "./Home/Home";
+import About from "./About/About";
+import Contact from "./Contact/Contact";
+import Detail from "./Detail/Detail";
+import Cart from "./Cart/Cart";
 
 const App = () => {
   return (
@@ -22,7 +23,7 @@ const App = () => {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="detail" element={<Detail />} />
+          <Route path="detail/:id" element={<Detail />} />
           <Route path="cart" element={<Cart />} />
           <Route path="sign-up" element={<RegisterFormik />} />
         </Route>

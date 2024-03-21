@@ -1,4 +1,5 @@
-import ItemImageAbout from "../../Components/item-image";
+import ItemImageAbout from "../Components/ItemImageAbout";
+
 
 const ImageAbout = () => {
   return <ItemImageAbout

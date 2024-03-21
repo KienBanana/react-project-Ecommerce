@@ -1,11 +1,41 @@
 {
+  "size":[{
+    "idSize":1,
+    "nameSize":"S"
+
+  },
+  {
+    "idSize":2,
+    "nameSize":"M"
+
+  }
+  ,
+  {
+    "idSize":3,
+    "nameSize":"L"
+
+  }
+],
+"color":[{
+  "id_color":1,
+  "name_color":"Red"
+},
+{
+  "id_color":2,
+  "name_color":"Blue"
+},
+{
+  "id_color":3,
+  "name_color":"Green"
+}],
   "products": [
     {
       "id": 1,
       "name": "Áo Polo Nam",
       "description": "Áo Polo thời trang cho nam giới",
       "price": 29.99,
-      "color": ["Red", "Blue", "Green"],
+      "color_id": [1,2,3],
+      "size_id": [1,2,3],
       "image": "https://media2.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/December2023/23CMCW.PL001.XDU.5.jpg",
       "quantity": 100,
       "sale":1,
@@ -17,7 +47,8 @@
       "name": "Áo Polo Nam2",
       "description": "Áo Polo thời trang cho nam giới",
       "price": 29.99,
-      "color": ["Red", "Blue", "Green"],
+      "color": [1,2,3],
+      "size": ["S", "M", "L"],
       "image": "https://media2.coolmate.me/cdn-cgi/image/width=672,height=990,quality=80,format=auto/uploads/May2023/_MG_0211_18.jpg",
       "quantity": 100,
       "sale":1,
@@ -29,7 +60,8 @@
       "name": "Áo Polo Nam3",
       "description": "Áo Polo thời trang cho nam giới",
       "price": 29.99,
-      "color": ["Red", "Blue", "Green"],
+      "color": [1,2,3],
+      "size": ["S", "M", "L"],
       "image": "https://media2.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/March2024/24CMAW.PL004.4.jpg",
       "sale":1,
       "quantity": 100,
@@ -42,7 +74,8 @@
       "description": "100% Doanh thu từ mỗi sản phẩm bán ra sẽ được dùng làm kinh phí cho Hành Trình Gom",
       "price": 39.99,
       "sale":1,
-      "color": ["Red", "Blue", "Green"],
+      "color": [1,2,3],
+      "size": ["S", "M", "L"],
       "quantity": 50,
       "image": "https://media2.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/February2024/ao_polo_gom1.jpg",
       "brand": "ChicStyle",
@@ -53,7 +86,8 @@
       "name": "Pack 3 Áo Polo nam Pique Cotton",
       "description": "Áo polo thời trang phù hợp nam",
       "price": 49.99,
-      "color": ["Red", "Blue", "Green"],
+      "color": [1,2,3],
+      "size": ["S", "M", "L"],
       "image": "https://mcdn2.coolmate.me/cdn-cgi/image/quality=80,format=auto/uploads/January2024/packpoloapl220.1_copy.jpg",
       "quantity": 80,
       "brand": "FootFlex",
@@ -65,7 +99,8 @@
       "name": "Áo Polo nam Excool",
       "description": "Áo polo thời trang phù hợp nam",
       "price": 49.99,
-      "color": ["Red", "Blue", "Green"],
+      "color": [1,2,3],
+      "size": ["S", "M", "L"],
       "image": "https://mcdn2.coolmate.me/cdn-cgi/image/quality=80,format=auto/uploads/November2021/BT5A9235f_46.jpg",
       "quantity": 80,
       "brand": "FootFlex",
@@ -76,7 +111,8 @@
       "name": "Áo Polo Nam Thể Thao Promax-S1",
       "description": "Áo polo thời trang phù hợp nam",
       "price": 49.99,
-      "color": ["Red", "Blue", "Green"],
+      "color": [1,2,3],
+      "size": ["S", "M", "L"],
       "image": "https://media2.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/May2022/thumb_polo_prmx_bong_dem.jpg",
       "quantity": 80,
       "brand": "FootFlex",
@@ -87,7 +123,8 @@
       "name": "Áo Polo Nam Dài Tay Thể Thao Essentials",
       "description": "Áo polo thời trang phù hợp nam",
       "price": 49.99,
-      "color": ["Red", "Blue", "Green"],
+      "color": [1,2,3],
+      "size": ["S", "M", "L"],
       "image": "https://media2.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/January2024/23CMAW.PL001.1s7.jpg",
       "sale":1,
       "quantity": 80,
@@ -99,7 +136,8 @@
       "name": "Áo Polo Nam phối Jeans",
       "description": "Áo polo thời trang phù hợp nam",
       "price": 49.99,
-      "color": ["Red", "Blue", "Green"],
+      "color": [1,2,3],
+      "size": ["S", "M", "L"],
       "image": "https://mcdn2.coolmate.me/cdn-cgi/image/quality=80,format=auto/uploads/May2023/thumbPolo_Copper_1A1.jpg",
       "quantity": 80,
       "brand": "FootFlex",
@@ -110,7 +148,8 @@
       "name": "Áo Polo Nam Pique Cotton USA",
       "description": "Áo polo thời trang phù hợp nam",
       "price": 49.99,
-      "color": ["Red", "Blue", "Green"],
+      "color": [1,2,3],
+      "size": ["S", "M", "L"],
       "image": "https://media2.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/March2023/USA_REU_7.jpg",
       "quantity": 80,
       "brand": "FootFlex",
@@ -121,7 +160,8 @@
       "name": "Áo Polo Nam Graphene",
       "description": "Áo polo thời trang phù hợp nam",
       "price": 49.99,
-      "color": ["Red", "Blue", "Green"],
+      "color": [1,2,3],
+      "size": ["S", "M", "L"],
       "image": "https://media2.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/February2024/ao-polo-graphene-den-8_copy.jpg",
       "quantity": 80,
       "brand": "FootFlex",
@@ -146,7 +186,7 @@
   ],
   "orders": [
     {
-      "orderID": 1002,
+      "orderID": 2,
       "userID": 3,
       "orderDate": "2024-03-07",
       "totalValue": 119.98,
@@ -160,7 +200,7 @@
       ]
     },
     {
-      "orderID": 1003,
+      "orderID": 3,
       "userID": 4,
       "orderDate": "2024-03-07",
       "totalValue": 39.99,

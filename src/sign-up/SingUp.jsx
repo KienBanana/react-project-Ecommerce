@@ -1,9 +1,9 @@
 import { Formik } from "formik";
 import * as yup from "yup";
+import InputForm from "../Components/InputForm";
 // import RadioFormik from "../radio/RadioFormik";
 // import CheckBoxFormik from "../checkbox/CheckBoxFormik";
 // import DropDownFormik from "../dropdown/DropDownFormik";
-import InputForm from "../Components/inputForm/InputForm";
 
 // const dropdownData = [
 //   {

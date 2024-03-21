@@ -1,6 +1,6 @@
-import ImageContactList from "../image-contact-list";
+import ImageContactList from "./ImageContactList";
 
-import FormMessage from "../form-mesage";
+import FormMessage from "./FormMessage";
 
 
 const Contact = () => {

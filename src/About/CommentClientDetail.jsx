@@ -1,4 +1,5 @@
-import iconAbout1 from "../../assets/image/iconAbout1.svg";
+
+import iconAbout1 from "../assets/image/iconAbout1.svg"
 const CommentClientDetail = () => {
   return (
     <div className="flex w-full pb-[100px]">

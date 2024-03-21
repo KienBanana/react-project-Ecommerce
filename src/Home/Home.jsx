@@ -1,11 +1,11 @@
 
 
-import ContainerHome from "../container-home";
+import ContainerHome from "./ContainerHome";
 
-import ImageHome from "../imgae-home";
-import Product from "../product";
-import Support from "../support";
-import TopSale from "../top-sale";
+import ImageHome from "./ImageHome";
+import Product from "./Product";
+import Support from "./Support";
+import TopSale from "./TopSale";
 
 export default function Home() {
   return (
